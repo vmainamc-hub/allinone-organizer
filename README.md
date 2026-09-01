@@ -1,29 +1,10 @@
-# Welcome to your Lovable project
+# Precision Sentinel + Parity — Standalone
 
-This project was built with [Lovable](https://lovable.dev).
+Surgical extraction of the supplied PrecisionSentiment codebase. The runnable application exposes only the two requested intelligence surfaces:
 
-## Build with Lovable
+- `/app/apex` — Sentinel
+- `/app/precision-parity` — Parity
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+`/` redirects to Sentinel. The retained Sentinel and Parity implementations and their required local dependency closure are preserved, including observation/ranking, psychology, pressure, liquidity-sweep, DBot entry-point, and parity engines. Unrelated product routes and UI were excluded.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+The shell/sidebar was reduced to Sentinel + Parity only. This is an extraction, not a redesign of the retained intelligence engines.
